@@ -1,0 +1,15 @@
+<tr valign="top" class="slide-item ui-state-default" data-ref="image-{{ id }}">
+  <td class="">
+    <buttom class="ui-icon ui-icon-arrowthick-2-n-s"></buttom>
+  </td>
+  <td class="">
+    <img src="{{ sizes.fk-admin-thumb.url }}" alt="">
+    <input type="hidden" name="images[{{ id }}][id]" value="{{ id }}">
+  </td>
+  <td class="">
+    <input type="text" class="regular-text" name="images[{{ id }}][link]" value="{{ link }}">
+  </td>
+  <td class="">
+    <button class="button btn-danger remove">Remover</button>
+  </td>
+</tr>
