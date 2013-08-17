@@ -10,7 +10,11 @@
 
 > `fk_get_the_slide()` - mesmo funcionamento de **get_the_post()***, retorna o slide atual da lista como objeto.
 
-> `fk_the_link()` - imprime o link do slide atual.
+> `fk_the_title()` - imprime o título do slide.
+
+> `fk_the_address()` - imprime o endereço do slide.
+
+> `fk_the_link()` - imprime o link do post associado ao slide.
 
 > `fk_the_big_url()` - imprime a url da imagem grande do slide atual.
 
