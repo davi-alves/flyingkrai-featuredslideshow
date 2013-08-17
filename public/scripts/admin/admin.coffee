@@ -27,6 +27,7 @@ Flying.Admin = ( ($)->
   sortableList = ->
     $(__list).sortable(
       placeholder: 'placeholder'
+      handle: 'td'
       forcePlaceholderSize: true
       opacity: 0.8
     )
