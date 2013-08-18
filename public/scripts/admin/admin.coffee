@@ -31,7 +31,7 @@ Flying.Admin = ( ($)->
       forcePlaceholderSize: true
       opacity: 0.8
     )
-    $(__list).disableSelection()
+    #$(__list).disableSelection()
 
   showImageUpload = ->
     window.tb_show '', 'media-upload.php?type=image&TB_iframe=true'

@@ -28,13 +28,12 @@ Flying.Admin = (function($) {
     });
   };
   sortableList = function() {
-    $(__list).sortable({
+    return $(__list).sortable({
       placeholder: 'placeholder',
       handle: 'td',
       forcePlaceholderSize: true,
       opacity: 0.8
     });
-    return $(__list).disableSelection();
   };
   showImageUpload = function() {
     return window.tb_show('', 'media-upload.php?type=image&TB_iframe=true');
